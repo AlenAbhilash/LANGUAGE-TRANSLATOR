@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="mainconatiner">
+        <img src="https://i.postimg.cc/6Q5nkdSr/translate.png" alt="" class="iconmain">
+        <h2 class="text-white">LANGUAGE TRANSLATOR</h2>
+    </div>
+    <div class="conatiner" id="conatiner1">
+        <div class="conatiner" id="conatiner2">
+            <div class="conatiner3">
+                <div class="datafrom" id="data">
+                    <div class="from">
+                        <select class="lang" name="from" data-mdb-select-init></select>
+                    </div>
+                    <textarea id="toform" type="text" class="form-control"></textarea>
+                    <img src="https://i.postimg.cc/Z5Q3KWnG/copy-document.png" alt="" class="copy">
+                    <img src="https://i.postimg.cc/DwcvBHkB/sound-waves.png" alt="" class="speak">
+                    <p class="card-text"></p>
+                    <button id="start-voice-from" class="btn btn-secondary">🎤 Start Voice Input</button>
+                    <a href="#" id="translate-btn" class="btn btn-primary" data-mdb-ripple-init>Translate</a>
+                </div>
+                <img src="https://i.postimg.cc/ZnFFZhkW/left-right.png" alt="" class="excahnge">
+                <div class="datato" id="data">
+                    <div class="to">
+                        <select class="lang" name="to" data-mdb-select-init></select>
+                    </div>
+                    <textarea id="formto" type="text" class="form-control" readonly></textarea>
+                    <img src="https://i.postimg.cc/Z5Q3KWnG/copy-document.png" alt="" class="copy">
+                    <img src="https://i.postimg.cc/DwcvBHkB/sound-waves.png" alt="" class="speak">
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- MDB -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"></script>
+    <script src="language.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+}
+
+body {
+
+    background-image: url(https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fGJpZyUyMGNpdHl8ZW58MHx8fHwxNzIwNTAzNDk4fDA&ixlib=rb-4.0.3);
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.mainconatiner {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 35px;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+#conatiner1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+#conatiner2 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.conatiner3 {
+    gap: 45px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.datafrom,
+.datato {
+    width: 400px;
+    display: inline-block;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+select {
+    width: 300px;
+    height: 50px;
+    border-color: transparent;
+
+}
+
+.excahnge {
+    cursor: pointer;
+    width: 37px;
+    object-fit: cover;
+}
+
+.speak {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.copy {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 780px) {
+    body {
+        background-image: url(https://images.pexels.com/photos/2404843/pexels-photo-2404843.jpeg?auto=compress&cs=tinysrgb&w=600);
+        height: 110%;
+    }
+
+    #conatiner1 {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 11px;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        height: 780px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    #conatiner2 {
+        margin-left: 0px;
+        margin-top: -5px;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 770px;
+        border-radius: 0px;
+    }
+
+    .datafrom,
+    .datato {
+        width: 300px;
+    }
+
+    .conatiner3 {
+        width: auto;
+        height: auto;
+        gap: 8px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
